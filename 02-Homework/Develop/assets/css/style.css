@@ -1,3 +1,4 @@
+/* Page Styling */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Header styling */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,7 +25,7 @@ header h1 {
 span {
     color: #d9dcd6;
 }
-
+/* Header Navigation */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -49,7 +51,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* Main Page Image */
 .hero {
     height: 800px;
     width: 100%;
@@ -130,13 +132,13 @@ main {
 
 /* Footer Styling */
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
